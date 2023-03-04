@@ -1,0 +1,62 @@
+.black1{
+    background-color:black;
+    color:white;
+    font-size:medium;
+}
+.blue{
+    color:blue
+}
+.red{
+    color:red
+}
+.blue1{
+    color: blue;
+}
+.itemlist{
+    font-size:30px;
+    font-weight:900;
+}
+.xanh{
+    color:white;
+    background-color:blue;
+    border-radius: 50px;
+}
+#grey{
+    background-color: grey ;
+}
+.todung{
+    font-size:30px;
+}
+#mybox{
+    border: solid 1px;
+    width:50%   
+}
+#mybox1{
+    border: solid 1px;
+    width:50%  
+}
+#mybox2{
+    border: solid 1px;
+    width:50%  
+}
+.blu{
+    background-color:cyan;
+    border:solid cyan;
+    border-radius:50px;
+    color:white;
+}
+.red{
+    background-color:red;
+    border:solid red;
+    border-radius:50px;
+    color:white;
+}
+.black{
+    background-color:grey;
+    border:solid grey;
+    border-radius:50px;
+    color:white;
+}
+.margin{
+    margin-left:100px;
+}

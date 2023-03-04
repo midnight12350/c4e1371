@@ -1,0 +1,40 @@
+p{
+    font-size: 30px;
+}
+.text1{
+    color: green;
+    font-style: italic;
+}
+.text2{
+    color:red;
+    text-transform: uppercase;
+}
+table{
+    width: 500px;
+    border: 1px solid pink;
+    text-align: center;
+    
+
+}
+td{
+    border-bottom:1px solid grey ;
+}
+.m1{
+    background-color: blue;
+    color:white;
+    font-size:30px; 
+    text-align: center;
+    font-weight:bolder
+}
+.grey{
+    background-color: grey;
+}
+.width{
+    width:40%;
+}
+form{
+    background-color: yellow;
+}
+
+    
+
