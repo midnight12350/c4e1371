@@ -1,0 +1,80 @@
+#midnight{
+    width:700px;
+    box-sizing: border-box;  
+    margin:auto;
+    padding:30px;
+    background-color: aqua;
+    top:0px;
+}
+.duyanh{
+    background-color: chocolate;
+    border:1px solid red;
+    padding:15px;
+    margin-bottom: 15px;
+}
+.red{
+    padding:8px 12px;
+    background-color: red;
+    border: 1px solid chocolate;
+    border-radius: 3px;
+    color:white;
+}
+.blu{
+    padding:8px 12px;
+    background-color: navy;
+    border: 1px solid blue;
+    border-radius: 3px;
+    color:white;
+}
+.menu-item{
+    height:40px;
+    border:1px solid yellow;
+    background-color:black;
+        line-height: 40px;
+        text-align: center;
+        color: white;
+        width:150px;
+        height:80px;
+}
+.menu{
+    display: none;   
+    position:absolute;
+    width: 200px; 
+    top:125px;
+} 
+.red:hover .menu{
+    display:block;
+}
+    .bang{
+       width: 700px;
+       background-color: aliceblue;
+       padding: 20px;
+       box-sizing: border-box;
+       margin: auto;
+       text-align: center;
+       margin-top: 15px;
+    }
+.mauchu{
+    background-color: yellow;
+    font-size:20px ;
+    text-align: center;
+    padding: 10px 80px;
+    border: tan solid 1px;
+}
+.pro{
+    position: absolute;
+    width: 200px;
+    top: 360px;
+    right:670px;
+    display: none;
+}
+.pro-item{
+    height: 40px;
+    border:1px solid grey;
+    background-color: azure;
+    line-height: 40px;
+    text-align: center;
+}
+.mauchu:hover .pro{
+    display: block;
+}

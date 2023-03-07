@@ -1,0 +1,75 @@
+.title{
+    background-color: yellow;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px 0px;
+    border: 2px solid khaki;
+    /* margin:0px 0px 15px 0px; */
+    margin-bottom: 15px;
+}
+.text{
+    background-color: cyan;
+    border: 1px solid blue;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.submit-btn{
+    padding: 8px 12px;
+    background-color: skyblue;
+    border: 1px solid darkblue;
+    border-radius: 3px;
+    color: white;
+    }
+    #app{
+        width:700px;
+        background-color: aquamarine;
+        padding: 20px;
+        box-sizing: border-box;
+        margin: auto;
+    }
+   
+    .sidebar{
+        position:fixed;
+        background-color: yellow;
+        top: 0px;
+        left:0px;
+        padding:10px;
+        border-right: 1px solid blue;
+        text-align: center;
+        width:250px;
+        height:100vh;
+        box-sizing: border-box;
+    }
+    body{
+        margin:0;
+        padding:0;
+    }
+    .yellow{
+        height:40px;
+        text-align: center;
+        background-color: tomato;
+        border: 1px solid blue;
+        margin-bottom: 10px;
+        line-height: 40px;
+        position:relative; 
+    }
+    .menu{
+        display: none;
+        position: absolute;
+        width: 200px;
+        top:0px;
+        left:240px;
+
+
+    }
+    .menu-item{
+        height:40px;
+        border:1px solid grey;
+        background-color: azure;
+        line-height: 40px;
+        text-align: center;
+    }
+.yellow:hover .menu{
+    display:block;
+    /* lệnh để hiển thị  */
+}
