@@ -1,0 +1,97 @@
+.haitu{
+    height:200px;
+    color: black;
+    padding:10px;
+    background-color: blue;
+}
+.header{
+    background-color: yellow;
+    
+   justify-content: center  ;
+    border: 1px solid yellowgreen;
+    display:flex;   
+    height:40px;
+    font-size:30px;
+    align-items: center;
+    
+}
+.left{
+    background-color: red;
+    border: 1px solid chocolate;
+    display:flex;
+    float:left;
+    width:30%;
+    height:145px;
+    margin-top:10px;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    background-color: aquamarine;
+    border: solid 1px aqua;
+    float:right;
+    margin-top: 10px;
+    width:68%;
+    height: 145px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+.header1{
+    width:650px;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    background-color:yellow ;
+    text-align: center; 
+    border: solid 1px blue;
+    
+
+
+
+}
+.baihai{
+    display:flex;
+    justify-content: space-between;
+    background-color: aqua;
+    width:700px;
+    height:400px;
+    margin:auto;
+    margin-top: 10px;
+    padding: 10px;
+    
+   
+
+
+    
+}
+
+.left1{
+    justify-content: center;
+    align-items: center;
+    width:90px;
+    background-color: red;
+    height:300px;
+    border:1px solid chocolate;
+    text-align: center;
+    padding:5px;
+    margin-top:10px;
+
+}
+.right1{
+   width:10%;
+   background-color: chocolate;
+   margin-top:10px;
+
+}
+.content1{
+    background-color: bisque;
+    
+    
+    margin-top:10px;
+}
+.footer1{
+    flex-direction: column;
+    align-items:stretch;
+}
+   
