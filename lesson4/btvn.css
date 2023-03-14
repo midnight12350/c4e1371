@@ -65,8 +65,13 @@
 
     
 }
-
+.midnight{
+    display: flex;
+    justify-content: space-between;
+    
+}
 .left1{
+    display:flex;
     justify-content: center;
     align-items: center;
     width:90px;

@@ -29,7 +29,7 @@ body{
     background-color: kaki;
 }
 .header-2{
-    position:sticky;
+    position:sticky;    
     top:0px;
     left:0px;
     display:flex;
