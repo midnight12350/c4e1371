@@ -51,7 +51,8 @@
     border: 1px solid darkcyan;
     display:none;
 }
-/* @media screen and (max-width: 412px) {
+@media screen and (max-width: 412px){
+
     .aside-left, .aside-right{
         display:none;
 
@@ -61,7 +62,9 @@
     }
     .header .toggle-aside-left-btn{
         display:inline-block;
-    } */
+    }
+}
+
 @media screen and (min-width: 0px) and (max-width:1023px) {
     .aside-left, .aside-right{
         display:none;

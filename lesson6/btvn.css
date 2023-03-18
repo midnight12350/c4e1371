@@ -1,6 +1,7 @@
 body{
     margin:0px;
 }
+
 .card-item{
     display:flex;
     background-color: orange;
@@ -64,15 +65,12 @@ body{
     margin-bottom: 15px;
     display: flex;
     flex-direction: column;
-    gap:15px;
+    gap:15px;   
 }
 .card-list{
     width:720px;
-    display:grid;
-    grid-template-columns: auto auto;
-    grid-column-gap:20px;
-    grid-row-gap:20px;
     margin:auto;
+    
 }
 .header{
 display: flex;
@@ -162,25 +160,13 @@ font-weight: 600;
 font-size: 36px;
 line-height: 16px;
 text-transform: capitalize;
-
 }
 
-
-.none{
-    width:100%;
-    display:none
+.card-item{
+    margin-top: 5%;;
 }
-.inline{
-    width:100%;
-}
-
-@media screen and (max-width: 720px){
-    .none{
-        display:none;
-    }
+@media screen and (max-width: 360px) and (max-width:509 px) {
     .inline{
-        display:inline-block;
         width:100%;
     }
-}   
-    
+}
