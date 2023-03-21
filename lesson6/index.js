@@ -70,17 +70,21 @@ console.log(!(age < 10) && !isGood)//false
 // console.log(a - b + d - c )//10-20+'40'-30=-10+'40'-30='-1040'-30=-1070
 // console.log(d - c + a - b )//'40'-30-10-20=0
 // console.log(a * b + d * c)//1400
-let a =1;
-let b= '2';
-let c= 3;
-let d = "4";
-console.log(b+d)//24
-console.log(a+b+c+d )//1234
-console.log(a-b+c-d)//-2
-console.log(a-b-c+d)//-44
-console.log((b+d)-(a+c))//20
-console.log((a+b)-(c+d))//12-34=-22
-console.log(a*c+b*d)//3+8=11
-console.log(-b+d)//-24
-console.log(-b-d)//-6
-console.log(-(b+d))//-24
+// let a =1;
+// let b= '2';
+// let c= 3;
+// let d = "4";
+// console.log(b+d)//24
+// console.log(a+b+c+d )//1234
+// console.log(a-b+c-d)//-2
+// console.log(a-b-c+d)//-44
+// console.log((b+d)-(a+c))//20
+// console.log((a+b)-(c+d))//12-34=-22
+// console.log(a*c+b*d)//3+8=11
+// console.log(-b+d)//-24
+// console.log(-b-d)//-6
+// console.log(-(b+d))//-24
+let a = 10;
+let b = 5;
+console.log(a-(b++))
+console.log(a-(++b))

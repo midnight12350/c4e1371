@@ -105,12 +105,7 @@ width:100%;
     cursor: pointer;
     padding: 15px;
 }
-.bo{
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    margin-right:;
-}
+
 .card-call-item{
     display:flex;
     padding:10px;
@@ -150,10 +145,7 @@ line-height: 36px;
 .item-speaker{
     width: 159px;
 height: 36px;
-
 padding-right:76%;
-padding-bottom:%;
-
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 600;
@@ -161,11 +153,10 @@ font-size: 36px;
 line-height: 16px;
 text-transform: capitalize;
 }
-
 .card-item{
     margin-top: 5%;;
 }
-@media screen and (max-width: 360px) and (max-width:509 px) {
+@media screen and (max-width: 360px) and (max-width:509px) {
     .inline{
         width:100%;
     }
